@@ -44,7 +44,7 @@ public class Plan {
 					}else
 						return "/my-special-folder/Dockerfile is not readable";
 				}else
-					return "/my-special-folder/Dockerfile does not exist";
+					return "mwb/my-special-folder/Dockerfile does not exist";
 			}else{
 				return "/my-special-folder has the wrong permissions";
 			}
